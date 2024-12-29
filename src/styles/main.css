@@ -1,0 +1,62 @@
+:root {
+  /* Renk paleti */
+  --primary-color: #1a1a1a;
+  --secondary-color: #2d2d2d;
+  --accent-color: #4CAF50;
+  --text-color: #ffffff;
+  --error-color: #ff4444;
+  --success-color: #4CAF50;
+  --neutral-color: #808080;
+
+  /* Boyutlar */
+  --circle-size: 100px;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 2rem;
+  
+  /* Font boyutları */
+  --font-sm: 0.875rem;
+  --font-md: 1rem;
+  --font-lg: 1.25rem;
+  --font-xl: 1.5rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: var(--spacing-md);
+}
+
+/* Responsive tasarım için media queries */
+@media (max-width: 768px) {
+  :root {
+    --circle-size: 80px;
+    --font-lg: 1.1rem;
+    --font-xl: 1.25rem;
+  }
+
+  .container {
+    padding: var(--spacing-sm);
+  }
+}
+
+@media (max-width: 480px) {
+  :root {
+    --circle-size: 60px;
+    --font-lg: 1rem;
+    --font-xl: 1.15rem;
+  }
+} 

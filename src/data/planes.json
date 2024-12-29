@@ -1,0 +1,642 @@
+[
+  {
+    "model": "737-800",
+    "manufacturer": "Boeing",
+    "maxRange": 5435,
+    "engineCount": 2,
+    "productionYear": 1997,
+    "totalProduced": 5000
+  },
+  {
+    "model": "A320",
+    "manufacturer": "Airbus",
+    "maxRange": 6300,
+    "engineCount": 2,
+    "productionYear": 1987,
+    "totalProduced": 10000
+  },
+  {
+    "model": "777-200",
+    "manufacturer": "Boeing",
+    "maxRange": 9700,
+    "engineCount": 2,
+    "productionYear": 1994,
+    "totalProduced": 1600
+  },
+  {
+    "model": "A380",
+    "manufacturer": "Airbus",
+    "maxRange": 15200,
+    "engineCount": 4,
+    "productionYear": 2005,
+    "totalProduced": 250
+  },
+  {
+    "model": "787-9",
+    "manufacturer": "Boeing",
+    "maxRange": 14140,
+    "engineCount": 2,
+    "productionYear": 2014,
+    "totalProduced": 1000
+  },
+  {
+    "model": "A350-900",
+    "manufacturer": "Airbus",
+    "maxRange": 15000,
+    "engineCount": 2,
+    "productionYear": 2013,
+    "totalProduced": 400
+  },
+  {
+    "model": "747-8",
+    "manufacturer": "Boeing",
+    "maxRange": 15000,
+    "engineCount": 4,
+    "productionYear": 2012,
+    "totalProduced": 150
+  },
+  {
+    "model": "E195-E2",
+    "manufacturer": "Embraer",
+    "maxRange": 4815,
+    "engineCount": 2,
+    "productionYear": 2017,
+    "totalProduced": 100
+  },
+  {
+    "model": "CS300",
+    "manufacturer": "Bombardier",
+    "maxRange": 6112,
+    "engineCount": 2,
+    "productionYear": 2015,
+    "totalProduced": 100
+  },
+  {
+    "model": "767-300ER",
+    "manufacturer": "Boeing",
+    "maxRange": 11390,
+    "engineCount": 2,
+    "productionYear": 1988,
+    "totalProduced": 1000
+  },
+  {
+    "model": "737 MAX 8",
+    "manufacturer": "Boeing",
+    "maxRange": 6575,
+    "engineCount": 2,
+    "productionYear": 2017,
+    "totalProduced": 300
+  },
+  {
+    "model": "A321",
+    "manufacturer": "Airbus",
+    "maxRange": 7400,
+    "engineCount": 2,
+    "productionYear": 1994,
+    "totalProduced": 9000
+  },
+  {
+    "model": "737-900",
+    "manufacturer": "Boeing",
+    "maxRange": 5930,
+    "engineCount": 2,
+    "productionYear": 2001,
+    "totalProduced": 2000
+  },
+  {
+    "model": "A350-1000",
+    "manufacturer": "Airbus",
+    "maxRange": 14100,
+    "engineCount": 2,
+    "productionYear": 2016,
+    "totalProduced": 200
+  },
+  {
+    "model": "A310",
+    "manufacturer": "Airbus",
+    "maxRange": 9600,
+    "engineCount": 2,
+    "productionYear": 1983,
+    "totalProduced": 250
+  },
+  {
+    "model": "757-200",
+    "manufacturer": "Boeing",
+    "maxRange": 7240,
+    "engineCount": 2,
+    "productionYear": 1983,
+    "totalProduced": 1000
+  },
+  {
+    "model": "A220-300",
+    "manufacturer": "Airbus",
+    "maxRange": 6290,
+    "engineCount": 2,
+    "productionYear": 2016,
+    "totalProduced": 100
+  },
+  {
+    "model": "787-8",
+    "manufacturer": "Boeing",
+    "maxRange": 13480,
+    "engineCount": 2,
+    "productionYear": 2011,
+    "totalProduced": 700
+  },
+  {
+    "model": "747-400",
+    "manufacturer": "Boeing",
+    "maxRange": 12400,
+    "engineCount": 4,
+    "productionYear": 1989,
+    "totalProduced": 600
+  },
+  {
+    "model": "MD-80",
+    "manufacturer": "McDonnell Douglas",
+    "maxRange": 3650,
+    "engineCount": 2,
+    "productionYear": 1980,
+    "totalProduced": 1200
+  },
+  {
+    "model": "A319",
+    "manufacturer": "Airbus",
+    "maxRange": 6100,
+    "engineCount": 2,
+    "productionYear": 1996,
+    "totalProduced": 1800
+  },
+  {
+    "model": "777-300",
+    "manufacturer": "Boeing",
+    "maxRange": 11000,
+    "engineCount": 2,
+    "productionYear": 1998,
+    "totalProduced": 800
+  },
+  {
+    "model": "A310-300",
+    "manufacturer": "Airbus",
+    "maxRange": 9300,
+    "engineCount": 2,
+    "productionYear": 1985,
+    "totalProduced": 300
+  },
+  {
+    "model": "737-500",
+    "manufacturer": "Boeing",
+    "maxRange": 4670,
+    "engineCount": 2,
+    "productionYear": 1990,
+    "totalProduced": 1000
+  },
+  {
+    "model": "Martin C-130 Hercules",
+    "manufacturer": "Lockheed Martin",
+    "maxRange": 3700,
+    "engineCount": 4,
+    "productionYear": 1954,
+    "totalProduced": 2500
+  },
+  {
+    "model": "100",
+    "manufacturer": "Fokker",
+    "maxRange": 2850,
+    "engineCount": 2,
+    "productionYear": 1986,
+    "totalProduced": 280
+  },
+  {
+    "model": "Douglas DC-10",
+    "manufacturer": "McDonnell Douglas",
+    "maxRange": 9300,
+    "engineCount": 3,
+    "productionYear": 1970,
+    "totalProduced": 386
+  },
+  {
+    "model": "Concorde",
+    "manufacturer": "Aérospatiale/BAC",
+    "maxRange": 7250,
+    "engineCount": 4,
+    "productionYear": 1969,
+    "totalProduced": 20
+  },
+  {
+    "model": "A400M",
+    "manufacturer": "Airbus",
+    "maxRange": 8700,
+    "engineCount": 4,
+    "productionYear": 2009,
+    "totalProduced": 100
+  },
+  {
+    "model": "757-300",
+    "manufacturer": "Boeing",
+    "maxRange": 6400,
+    "engineCount": 2,
+    "productionYear": 1998,
+    "totalProduced": 50
+  },
+  {
+    "model": "An-225 Mriya",
+    "manufacturer": "Antonov",
+    "maxRange": 4400,
+    "engineCount": 6,
+    "productionYear": 1988,
+    "totalProduced": 1
+  },
+  {
+    "model": "747-400F",
+    "manufacturer": "Boeing",
+    "maxRange": 9000,
+    "engineCount": 4,
+    "productionYear": 1993,
+    "totalProduced": 200
+  },
+  {
+    "model": "Ilyushin Il-76",
+    "manufacturer": "Ilyushin",
+    "maxRange": 5500,
+    "engineCount": 4,
+    "productionYear": 1971,
+    "totalProduced": 1000
+  },
+  {
+    "model": "A330-300",
+    "manufacturer": "Airbus",
+    "maxRange": 11630,
+    "engineCount": 2,
+    "productionYear": 1992,
+    "totalProduced": 500
+  },
+  {
+    "model": "A330-200",
+    "manufacturer": "Airbus",
+    "maxRange": 12600,
+    "engineCount": 2,
+    "productionYear": 1998,
+    "totalProduced": 600
+  },
+  {
+    "model": "A310-200",
+    "manufacturer": "Airbus",
+    "maxRange": 9100,
+    "engineCount": 2,
+    "productionYear": 1982,
+    "totalProduced": 250
+  },
+  {
+    "model": "737-200",
+    "manufacturer": "Boeing",
+    "maxRange": 4000,
+    "engineCount": 2,
+    "productionYear": 1967,
+    "totalProduced": 1800
+  },
+  {
+    "model": "MD-11",
+    "manufacturer": "McDonnell Douglas",
+    "maxRange": 11300,
+    "engineCount": 3,
+    "productionYear": 1990,
+    "totalProduced": 200
+  },
+  {
+    "model": "An-124",
+    "manufacturer": "Antonov",
+    "maxRange": 4800,
+    "engineCount": 4,
+    "productionYear": 1982,
+    "totalProduced": 60
+  },
+  {
+    "model": "Douglas DC-9",
+    "manufacturer": "McDonnell Douglas",
+    "maxRange": 3000,
+    "engineCount": 2,
+    "productionYear": 1965,
+    "totalProduced": 2000
+  },
+  {
+    "model": "787-10",
+    "manufacturer": "Boeing",
+    "maxRange": 11800,
+    "engineCount": 2,
+    "productionYear": 2017,
+    "totalProduced": 200
+  },
+  {
+    "model": "A330-900",
+    "manufacturer": "Airbus",
+    "maxRange": 13800,
+    "engineCount": 2,
+    "productionYear": 2017,
+    "totalProduced": 200
+  },
+  {
+    "model": "777-200LR",
+    "manufacturer": "Boeing",
+    "maxRange": 17300,
+    "engineCount": 2,
+    "productionYear": 2006,
+    "totalProduced": 50
+  },
+  {
+    "model": "F50",
+    "manufacturer": "Fokker",
+    "maxRange": 5400,
+    "engineCount": 2,
+    "productionYear": 1987,
+    "totalProduced": 200
+  },
+  {
+    "model": "340",
+    "manufacturer": "Saab",
+    "maxRange": 1800,
+    "engineCount": 2,
+    "productionYear": 1983,
+    "totalProduced": 500
+  },
+  {
+    "model": "Citation X",
+    "manufacturer": "Cessna",
+    "maxRange": 6020,
+    "engineCount": 2,
+    "productionYear": 1996,
+    "totalProduced": 200
+  },
+  {
+    "model": "CRJ700",
+    "manufacturer": "Bombardier",
+    "maxRange": 3000,
+    "engineCount": 2,
+    "productionYear": 2001,
+    "totalProduced": 600
+  },
+  {
+    "model": "ERJ-145",
+    "manufacturer": "Embraer",
+    "maxRange": 2800,
+    "engineCount": 2,
+    "productionYear": 1995,
+    "totalProduced": 1200
+  },
+  {
+    "model": "737 MAX 9",
+    "manufacturer": "Boeing",
+    "maxRange": 6350,
+    "engineCount": 2,
+    "productionYear": 2018,
+    "totalProduced": 200
+  },
+  {
+    "model": "Q400",
+    "manufacturer": "Bombardier",
+    "maxRange": 2500,
+    "engineCount": 2,
+    "productionYear": 2000,
+    "totalProduced": 100
+  },
+  {
+    "model": "Tu-154",
+    "manufacturer": "Tupolev",
+    "maxRange": 5000,
+    "engineCount": 3,
+    "productionYear": 1968,
+    "totalProduced": 1000
+  },
+  {
+    "model": "Ilyushin Il-62",
+    "manufacturer": "Ilyushin",
+    "maxRange": 10200,
+    "engineCount": 4,
+    "productionYear": 1963,
+    "totalProduced": 200
+  },
+  {
+    "model": "727",
+    "manufacturer": "Boeing",
+    "maxRange": 4600,
+    "engineCount": 3,
+    "productionYear": 1963,
+    "totalProduced": 1832
+  },
+  {
+    "model": "Falcon 900",
+    "manufacturer": "Dassault",
+    "maxRange": 8000,
+    "engineCount": 3,
+    "productionYear": 1984,
+    "totalProduced": 500
+  },
+  {
+    "model": "E170",
+    "manufacturer": "Embraer",
+    "maxRange": 2450,
+    "engineCount": 2,
+    "productionYear": 2002,
+    "totalProduced": 100
+  },
+  {
+    "model": "A330-800",
+    "manufacturer": "Airbus",
+    "maxRange": 13700,
+    "engineCount": 2,
+    "productionYear": 2018,
+    "totalProduced": 200
+  },
+  {
+    "model": "757-200F",
+    "manufacturer": "Boeing",
+    "maxRange": 7240,
+    "engineCount": 2,
+    "productionYear": 1987,
+    "totalProduced": 200
+  },
+  {
+    "model": "A310 MRTT",
+    "manufacturer": "Airbus",
+    "maxRange": 9500,
+    "engineCount": 2,
+    "productionYear": 2007,
+    "totalProduced": 50
+  },
+  {
+    "model": "Caravan",
+    "manufacturer": "Cessna",
+    "maxRange": 1000,
+    "engineCount": 1,
+    "productionYear": 1982,
+    "totalProduced": 2500
+  },
+  {
+    "model": "VC10",
+    "manufacturer": "Vickers",
+    "maxRange": 9300,
+    "engineCount": 4,
+    "productionYear": 1962,
+    "totalProduced": 54
+  },
+  {
+    "model": "Dash 8",
+    "manufacturer": "De Havilland",
+    "maxRange": 2600,
+    "engineCount": 2,
+    "productionYear": 1983,
+    "totalProduced": 1200
+  },
+  {
+    "model": "737 MAX 7",
+    "manufacturer": "Boeing",
+    "maxRange": 6700,
+    "engineCount": 2,
+    "productionYear": 2017,
+    "totalProduced": 100
+  },
+  {
+    "model": "A321XLR",
+    "manufacturer": "Airbus",
+    "maxRange": 8700,
+    "engineCount": 2,
+    "productionYear": 2023,
+    "totalProduced": 100
+  },
+  {
+    "model": "Beechcraft King Air 350",
+    "manufacturer": "Beechcraft",
+    "maxRange": 3100,
+    "engineCount": 2,
+    "productionYear": 1988,
+    "totalProduced": 200
+  },
+  {
+    "model": "L-1011 TriStar",
+    "manufacturer": "Lockheed",
+    "maxRange": 7500,
+    "engineCount": 3,
+    "productionYear": 1968,
+    "totalProduced": 250
+  },
+  {
+    "model": "CRJ900",
+    "manufacturer": "Bombardier",
+    "maxRange": 3200,
+    "engineCount": 2,
+    "productionYear": 2001,
+    "totalProduced": 500
+  },
+  {
+    "model": "Falcon 7X",
+    "manufacturer": "Dassault",
+    "maxRange": 11000,
+    "engineCount": 3,
+    "productionYear": 2005,
+    "totalProduced": 200
+  },
+  {
+    "model": "767-400ER",
+    "manufacturer": "Boeing",
+    "maxRange": 10700,
+    "engineCount": 2,
+    "productionYear": 2000,
+    "totalProduced": 70
+  },
+  {
+    "model": "Martin F-22 Raptor",
+    "manufacturer": "Lockheed Martin",
+    "maxRange": 2960,
+    "engineCount": 2,
+    "productionYear": 2005,
+    "totalProduced": 200
+  },
+  {
+    "model": "F-16 Fighting Falcon",
+    "manufacturer": "General Dynamics",
+    "maxRange": 4200,
+    "engineCount": 1,
+    "productionYear": 1974,
+    "totalProduced": 4600
+  },
+  {
+    "model": "F-15 Eagle",
+    "manufacturer": "McDonnell Douglas",
+    "maxRange": 5000,
+    "engineCount": 2,
+    "productionYear": 1976,
+    "totalProduced": 2500
+  },
+  {
+    "model": "Eurofighter Typhoon",
+    "manufacturer": "Eurofighter GmbH",
+    "maxRange": 2900,
+    "engineCount": 2,
+    "productionYear": 1994,
+    "totalProduced": 500
+  },
+  {
+    "model": "Tornado GR4",
+    "manufacturer": "Panavia",
+    "maxRange": 4000,
+    "engineCount": 2,
+    "productionYear": 1979,
+    "totalProduced": 200
+  },
+  {
+    "model": "MiG-29",
+    "manufacturer": "Mikoyan",
+    "maxRange": 2100,
+    "engineCount": 2,
+    "productionYear": 1982,
+    "totalProduced": 1600
+  },
+  {
+    "model": "Su-30",
+    "manufacturer": "Sukhoi",
+    "maxRange": 3000,
+    "engineCount": 2,
+    "productionYear": 1996,
+    "totalProduced": 2000
+  },
+  {
+    "model": "KC-135 Stratotanker",
+    "manufacturer": "Boeing",
+    "maxRange": 2400,
+    "engineCount": 4,
+    "productionYear": 1956,
+    "totalProduced": 800
+  },
+  {
+    "model": "C-5M Super Galaxy",
+    "manufacturer": "Lockheed",
+    "maxRange": 5500,
+    "engineCount": 4,
+    "productionYear": 1968,
+    "totalProduced": 130
+  },
+  {
+    "model": "B-2 Spirit",
+    "manufacturer": "Northrop Grumman",
+    "maxRange": 11000,
+    "engineCount": 4,
+    "productionYear": 1989,
+    "totalProduced": 20
+  },
+  {
+    "model": "F/A-18 Hornet",
+    "manufacturer": "McDonnell Douglas",
+    "maxRange": 2600,
+    "engineCount": 2,
+    "productionYear": 1978,
+    "totalProduced": 1000
+  },
+  {
+    "model": "A-10 Thunderbolt II",
+    "manufacturer": "McDonnell Douglas",
+    "maxRange": 4000,
+    "engineCount": 1,
+    "productionYear": 1976,
+    "totalProduced": 700
+  }
+]
