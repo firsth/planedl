@@ -1,11 +1,12 @@
 .header {
   text-align: center;
   padding: var(--spacing-lg) 0;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
   z-index: 10;
+  background-color: var(--primary-color);
 }
 
 .header h1 {
@@ -33,33 +34,60 @@
   left: 50%;
   transform: translate(-50%, -50%);
   padding-top: 120px;
+  height: 90vh;
+  overflow-y: scroll;
+  scrollbar-width: none;  /* Firefox için */
+  -ms-overflow-style: none;  /* IE ve Edge için */
 }
 
-.plane-info, .guess-details {
+.game-board::-webkit-scrollbar {
+  display: none;  /* Chrome, Safari ve Opera için */
+}
+
+.plane-info {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  gap: var(--spacing-md);
+  width: 100%;
+  max-width: 600px;
+  margin: 140px auto 0;
+}
+
+.guess-details {
+  display: flex;
+  justify-content: space-between;
   gap: var(--spacing-md);
   width: 100%;
   max-width: 600px;
   margin: 0 auto;
+  padding: var(--spacing-md);
+}
+
+.guess-item {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: var(--spacing-md);
+  border-radius: 16px;
+  border: 1px solid var(--secondary-color);
+  background-color: var(--primary-color);
 }
 
 .info-circle {
-  width: var(--circle-size);
-  height: var(--circle-size);
+  width: 100px;
+  height: 100px;
   background-color: var(--secondary-color);
-  border-radius: 50%;
+  border-radius: 24px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: var(--spacing-sm);
   text-align: center;
-  transition: background-color 0.3s ease;
+  transition: all 0.3s ease;
   position: relative;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   flex: 1;
-  min-width: calc(var(--circle-size) * 0.9);
-  max-width: calc(var(--circle-size) * 1.1);
 }
 
 .info-circle.correct {
@@ -68,13 +96,24 @@
 
 .info-label {
   font-size: var(--font-sm);
-  color: var(--neutral-color);
-  margin-bottom: 4px;
+  color: var(--text-color);
+  position: absolute;
+  top: -24px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--primary-color);
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-weight: normal;
+  white-space: nowrap;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  letter-spacing: 0.5px;
 }
 
 .info-value {
   font-size: var(--font-md);
   font-weight: 500;
+  margin-top: 0;
 }
 
 .info-circle.hint-up::after {
@@ -83,7 +122,7 @@
   bottom: -8px;
   right: -8px;
   background-color: var(--secondary-color);
-  border-radius: 50%;
+  border-radius: 8px;
   width: 24px;
   height: 24px;
   display: flex;
@@ -98,7 +137,7 @@
   bottom: -8px;
   right: -8px;
   background-color: var(--secondary-color);
-  border-radius: 50%;
+  border-radius: 8px;
   width: 24px;
   height: 24px;
   display: flex;
@@ -109,7 +148,8 @@
 
 .guess-input {
   width: 100%;
-  max-width: 400px;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 .guess-input input {
@@ -130,93 +170,24 @@
 .history-list {
   display: flex;
   flex-direction: column;
-  gap: var(--spacing-md);
+  gap: var(--spacing-lg);
   width: 100%;
   max-width: 600px;
-}
-
-.guess-item {
-  width: 100%;
-  margin-bottom: var(--spacing-md);
+  padding-bottom: var(--spacing-lg);
 }
 
 .guess-model {
   font-size: var(--font-lg);
   font-weight: bold;
-  margin-bottom: var(--spacing-md);
+  margin-bottom: var(--spacing-lg);
   text-align: center;
   color: var(--text-color);
-}
-
-.guess-details {
-  display: flex;
-  justify-content: center;
-  gap: var(--spacing-md);
+  padding: var(--spacing-md);
+  background-color: var(--secondary-color);
+  border-radius: 8px;
   width: 100%;
   max-width: 600px;
   margin: 0 auto;
-}
-
-@media (max-width: 768px) {
-  .plane-info, .guess-details {
-    gap: var(--spacing-sm);
-  }
-  
-  .info-circle {
-    width: calc(var(--circle-size) * 0.8);
-    height: calc(var(--circle-size) * 0.8);
-  }
-  
-  .info-label {
-    font-size: calc(var(--font-sm) * 0.9);
-  }
-  
-  .info-value {
-    font-size: calc(var(--font-md) * 0.9);
-  }
-}
-
-@media (max-width: 480px) {
-  .plane-info, .guess-details {
-    gap: 8px;
-  }
-  
-  .info-circle {
-    width: calc(var(--circle-size) * 0.7);
-    height: calc(var(--circle-size) * 0.7);
-  }
-  
-  .info-label {
-    font-size: calc(var(--font-sm) * 0.8);
-  }
-  
-  .info-value {
-    font-size: calc(var(--font-md) * 0.8);
-  }
-  
-  .guess-input input {
-    padding: var(--spacing-sm);
-  }
-}
-
-.game-over {
-  text-align: center;
-  margin-top: var(--spacing-lg);
-  padding: var(--spacing-md);
-  border-radius: 8px;
-  background-color: var(--secondary-color);
-}
-
-.win-message {
-  color: var(--success-color);
-  font-size: var(--font-lg);
-  font-weight: bold;
-}
-
-.lose-message {
-  color: var(--error-color);
-  font-size: var(--font-lg);
-  font-weight: bold;
 }
 
 .guess-section {
@@ -225,7 +196,7 @@
   align-items: center;
   gap: var(--spacing-md);
   width: 100%;
-  max-width: 400px;
+  max-width: 600px;
   margin: 0 auto;
 }
 
@@ -237,7 +208,12 @@
   background-color: rgba(255, 68, 68, 0.1);
   border-radius: 4px;
   width: 100%;
-  max-width: 400px;
+  max-width: 600px;
+  position: absolute;
+  top: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 5;
   animation: fadeIn 0.3s ease;
 }
 
@@ -250,4 +226,112 @@
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+@media (max-width: 768px) {
+  .plane-info, .guess-details {
+    gap: var(--spacing-sm);
+    padding: 0 var(--spacing-md);
+  }
+  
+  .guess-input {
+    padding: 0 var(--spacing-md);
+  }
+
+  .info-circle {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .info-label {
+    top: -20px;
+    padding: 3px 10px;
+    font-size: calc(var(--font-sm) * 0.9);
+  }
+  
+  .info-value {
+    font-size: calc(var(--font-md) * 0.9);
+  }
+
+  .history-list {
+    gap: var(--spacing-md);
+    padding: 0 var(--spacing-md);
+  }
+
+  .guess-model {
+    margin-bottom: var(--spacing-md);
+  }
+}
+
+@media (max-width: 480px) {
+  .plane-info, .guess-details {
+    gap: 8px;
+    padding: 0 var(--spacing-lg);
+  }
+  
+  .guess-input {
+    padding: 0 var(--spacing-lg);
+  }
+
+  .info-circle {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .info-label {
+    top: -18px;
+    padding: 2px 8px;
+    font-size: calc(var(--font-sm) * 0.8);
+  }
+  
+  .info-value {
+    font-size: calc(var(--font-md) * 0.8);
+  }
+  
+  .guess-input input {
+    padding: var(--spacing-sm);
+  }
+
+  .history-list {
+    gap: var(--spacing-sm);
+    padding: 0 var(--spacing-lg);
+  }
+
+  .guess-model {
+    margin-bottom: var(--spacing-sm);
+  }
+}
+
+.game-over {
+  text-align: center;
+  padding: var(--spacing-md);
+  border-radius: 8px;
+  background-color: var(--error-color);
+  position: absolute;
+  top: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 600px;
+  z-index: 5;
+  color: white;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.restart-button {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  border: none;
+  border-radius: 8px;
+  padding: var(--spacing-md) var(--spacing-lg);
+  font-size: var(--font-md);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: var(--spacing-md);
+  font-weight: bold;
+}
+
+.restart-button:hover {
+  background-color: var(--success-color);
 } 

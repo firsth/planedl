@@ -6,7 +6,7 @@ import { useGame } from './hooks/useGame'
 function App() {
   const [currentGuess, setCurrentGuess] = useState('')
   const [errorMessage, setErrorMessage] = useState('')
-  const { gameState, makeGuess } = useGame()
+  const { gameState, makeGuess, startGame } = useGame()
 
   const handleKeyPress = (e: KeyboardEvent<HTMLInputElement>) => {
     if (e.key === 'Enter' && currentGuess.trim()) {
@@ -126,6 +126,9 @@ function App() {
                 Oyun bitti! Doğru cevap: {gameState.targetPlane?.model}
               </p>
             )}
+            <button className="restart-button" onClick={() => startGame()}>
+              Yeniden Oyna
+            </button>
           </div>
         )}
       </main>
